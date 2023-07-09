@@ -1,0 +1,425 @@
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --background-color: #ffffff;
+  --brand-color: #2196f3;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+.header {
+  border: 1px solid #ececec;
+}
+/*logo*/
+.logo {
+  text-decoration: none;
+  color: #000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+}
+.logo-color {
+  color: var(--brand-color);
+}
+.logo-second-color {
+  color: var(--background-color);
+}
+/*Body*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--title-color);
+}
+/*Lists*/
+.header-links,
+.header-contacts,
+.footer-contacts,
+.qualities-list,
+.team-list,
+.button-list,
+.projects-list > ul {
+  list-style: none;
+}
+
+/*Links*/
+.link {
+  text-decoration: none;
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 2%;
+}
+.contacts:hover,
+.link:hover,
+.contacts:focus,
+.link:focus {
+  color: var(--brand-color);
+}
+/*Contacts*/
+.contacts {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 2%;
+}
+/*Main Section title + button*/
+.main-title-section {
+  background-color: #2f303a;
+}
+.main-title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 6%;
+}
+.main-button {
+  background-color: var(--brand-color);
+  color: var(--background-color);
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  letter-spacing: 6%;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: 0;
+  padding: 0;
+}
+/*qualities*/
+.qualities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+}
+.qualities-content {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 3%;
+}
+/*What we do*/
+.title-what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+  text-align: center;
+}
+/*Our Team*/
+.title-our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+  text-align: center;
+}
+.team-list {
+  color: var(--title-color);
+}
+.our-team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+  text-align: center;
+}
+.our-team-jobs {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+  text-align: center;
+}
+/*--------------------------------------------------Portfolio page*/
+.portfolio-page {color: var(--brand-color);}
+/*Buttons*/
+.button {
+  background-color: #f5f4fa;
+  color: var(--title-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+}
+
+.button-all {
+  width: 64px;
+  height: 38px;
+}
+.button-web-sites {
+  width: 120px;
+  height: 38px;
+}
+.button-apps {
+  width: 83px;
+  height: 38px;
+}
+.button-design {
+  width: 96px;
+  height: 38px;
+}
+.button-marketing {
+  width: 121px;
+  height: 38px;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--brand-color);
+  color: var(--background-color);
+}
+/* Projects */
+.project {
+  border: 1px solid #eee;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 6%;
+}
+.project-type {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 3%;
+}
+
+/*Footer*/
+.footer {
+  background-color: #2f303a;
+}
+.footer-contacts {
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+}
+.footer-location {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 3%;
+}
+/*Footer Adress*/
+.adress {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 3%;
+}
+.location {
+  color: var(--background-color);
+  line-height: 1.18;
+}
+
+.adress:hover,
+.adress:focus {
+  color: var(--brand-color);
+}
+
+/*----------------------------------LAYOUT------------------------------------*/
+/*Header layout*/
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: auto;
+}
+
+.small-container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 auto;
+  border: 0;
+}
+.section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.logo {
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.header-links {
+  display: flex;
+}
+.link {
+  margin-right: 50px;
+  margin-left: 0;
+}
+.header-links:first-child {
+  margin-left: 93px;
+}
+.header-links:last-child {
+  margin-right: 385px;
+}
+.contacts-page {
+  margin-right: 0;
+}
+.header-contacts {
+  display: flex;
+  justify-content: center;
+}
+.header-contacts-mail {
+  margin-right: 40px;
+}
+.main-title-section {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+.main-title {
+  margin-bottom: 30px;
+}
+.main-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+/*Qualities list*/
+.qualities-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.qualities-list {
+  display: flex;
+  justify-content: center;
+  width: 1170px;
+  flex-shrink: 0;
+}
+.qualities {
+  margin: 0 30px 0 0;
+}
+.qualities:last-child {
+  margin-right: 0;
+}
+.qualities-content {
+  margin-top: 10px;
+  width: 270px;
+}
+
+.what-we-do-images {
+  display: flex;
+  justify-content: center;
+  width: 1170px;
+  flex-shrink: 0;
+}
+.image {
+  margin: 50px 30px 0 0;
+  flex-shrink: 0;
+}
+.image:last-child {
+  margin-right: 0;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.our-team {
+  background-color: #f5f4fa;
+  margin: 0 auto;
+  padding-top: 94px;
+}
+.title-our-team {
+  margin-bottom: 50px;
+}
+.card {
+  width: 270px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--background-color);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin: 0 30px 94px 0;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.our-team-member {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.our-team-jobs {
+  margin: auto;
+  margin-bottom: 30px;
+}
+.footer-logo .logo {
+  margin-left: 0;
+}
+.footer-logo {
+  padding-top: 30px;
+  padding-bottom: 28px;
+}
+.footer-adress {
+  margin-bottom: 12px;
+}
+.footer-adress:last-child {
+  margin-bottom: 60px;
+}
+/*-------------------------------Portfolio Page--------------------*/
+.button-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.button {
+  margin-right: 6px;
+  border-radius: 4px;
+  background: #f5f4fa;
+}
+.button-list:last-child {
+  margin-right: 0;
+}
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+.project {
+  flex-shrink: 0;
+  background: var(--background-color);
+  margin-bottom: 30px;
+}
+.project-title {
+  margin: 20px 24px 0 24px;
+}
+.project-type {
+  margin: 0 24px 20px 24px;
+}
