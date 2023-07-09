@@ -416,6 +416,7 @@ body {
   flex-shrink: 0;
   background: var(--background-color);
   margin-bottom: 30px;
+  border-bottom: 1px solid #EEE;
 }
 .project-title {
   margin: 20px 24px 0 24px;
